@@ -1,0 +1,20 @@
+{
+    "name": "michalhepner/php-tmp-storage",
+    "type": "library",
+    "description": "Provides a simple abstraction layer to handle temporary files in PHP",
+    "require": {
+        "symfony/filesystem": "^5|^6"
+    },
+    "license": "AGPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "MichalHepner\\PhpTmpStorage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Michał Hepner",
+            "email": "michal.hepner@gmail.com"
+        }
+    ]
+}
